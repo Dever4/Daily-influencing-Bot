@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/bot.js",
+    "start": "node src/cac.js",
     "dev": "nodemon src/cac.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.4",
+    "better-sqlite3": "^11.5.0",
     "body-parser": "^1.20.2",
     "chalk": "^4.1.1",
     "crypto": "^1.0.1",
